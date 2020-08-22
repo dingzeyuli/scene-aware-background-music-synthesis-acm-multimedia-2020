@@ -1,0 +1,157 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Scene-Aware Background Music Synthesis, ACM Multimedia 2020, Project Page</title>
+    <!--<meta name="google" content="notranslate" />-->
+    <meta name="description" content="Background music not only provides auditory experience for users,
+    but also conveys, guides, and promotes emotions that resonate with
+    visual contents. Studies on how to synthesize background music
+    for different scenes can promote research in many fields, such as
+    human behaviour research. Although considerable effort has been
+    directed toward music synthesis, the synthesis of appropriate music
+    based on scene visual content remains an open problem.
+    
+    In this paper we introduce an interactive background music syn-
+    thesis algorithm guided by visual content. We leverage a cascading
+    
+    strategy to synthesize background music in two stages: Scene Vi-
+    sual Analysis and Background Music Synthesis. First, seeking a deep
+    
+    learning-based solution, we leverage neural networks to analyze
+    the sentiment of the input scene. Second, real-time background
+    music is synthesized by optimizing a cost function that guides the
+    selection and transition of music clips to maximize the emotion
+    
+    consistency between visual and auditory criteria, and music conti-
+    nuity. In our experiments, we demonstrate the proposed approach
+    
+    can synthesize dynamic background music for different types of
+    scenarios. We also conducted quantitative and qualitative analysis
+    on the synthesized results of multiple example scenes to validate
+    the efficacy of our approach.">
+    <link rel="stylesheet" href="./files/dli_proj.css" type="text/css" charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500" rel="stylesheet">
+    <meta name="author" content="Dingzeyu Li" >
+    <meta name="author-url" content="http://dingzeyu.li/" >
+</head>
+
+<body>
+
+<header>
+  Scene-Aware Background Music Synthesis
+<div id="authors"><br>
+  <a href="https://bitwangyujia.github.io/research/">Yujia Wang</a>,
+  <a href="https://liangwei-bit.github.io/web/">Wei Liang</a>,
+  <a href="https://wanwanligmu.wixsite.com/mysite">Wanwan Li</a>,
+  <a href="http://dingzeyu.li/">Dingzeyu Li</a>,
+  <a href="https://craigyuyu.github.io/home/">Lap-Fai Yu</a>,
+</div>
+<br>
+<div id="pub_venue"> ACM Multimedia 2020</div>
+<br>
+</header>
+
+<div id="main">
+<br>
+
+
+<!--
+  <div class="video-container" >
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/AeO4ydc8yqY" frameborder="0" allowfullscreen></iframe> 
+  </div>
+-->
+
+        
+  <br><i><b>abstract</b></i><br>
+  <div id="abstract">
+    In this paper, we introduce a new problem, named audio-visual video parsing, which aims to parse a video into temporal event segments and label them as either audible, visible, or both. Such a problem is essential for a complete understanding of the scene depicted inside a video. To facilitate exploration, we collect a Look, Listen, and Parse (LLP) dataset to investigate audio-visual video parsing in a weakly-supervised manner. This task can be naturally formulated as a Multimodal Multiple Instance Learning (MMIL) problem. Concretely, we propose a novel hybrid attention network to explore unimodal and cross-modal temporal contexts simultaneously. We develop an attentive MMIL pooling method to adaptively explore useful audio and visual content from different temporal extent and modalities. Furthermore, we discover and mitigate modality bias and noisy label issues with an individual-guided learning mechanism and label smoothing technique, respectively. Experimental results show that the challenging audio-visual video parsing can be achieved even with only video-level weak labels. Our proposed framework can effectively leverage unimodal and cross-modal temporal contexts and alleviate modality bias and noisy labels problems.
+  </div>
+  <hr>
+
+  <div id="downloads_list">
+  <i><b>materials</b></i>
+  <br>
+  <a href="./files/unified-multisensory-perception-eccv-2020-tian-et-al.pdf"><abbr title="2MB original resolution">Paper</abbr> </a>   / 
+  <a href="./files/unified-multisensory-perception-eccv-2020-tian-et-al-compressed.pdf"><abbr title="700KB low resolution for slow internet connection">Paper (low resolution)</abbr></a>  <br>
+  <a href="https://arxiv.org/abs/2007.10558">arxiv</a> <br>
+  code coming soon...
+  <!--
+  <br>
+  Source Code: <a href="https://github.com/dingzeyuli/AirCode">Github</a>
+  <br>
+  <a href="https://youtu.be/rPeGpjGHk4Y">Youtube</a> <span id="bilibili"></span> / 
+  <a href="./aircode-uist-2017-li-et-al.mp4">Video (100MB)</a>
+  <br>
+  Slides: 
+  <a href="./aircode-uist-2017-slides.key.zip"><abbr title="">keynote (100MB)</abbr></a>  / 
+  <a href="./aircode-uist-2017-slides.pdf"><abbr title="">pdf (30MB)</abbr></a> /
+  <a href="./slides/" target="_blank"><abbr title="">html viewer</abbr></a> 
+  <br>
+  Conference Presentation: 
+  <a href="https://youtu.be/Ootu7GP2boY">Youtube</a> 
+  <br>
+  Models: 
+  <a href="http://www.thingiverse.com/thing:2618319">Triangle Drawer</a> / 
+  <a href="http://www.thingiverse.com/thing:2618369">Mug</a> /
+  <a href="http://www.thingiverse.com/thing:2618338">Statue</a>
+
+  <br>
+  <br>
+
+  <i><b> external resources</b> </i><br>
+
+  <a href="http://vision.gel.ulaval.ca/~jouellet/code/DualEllipse/de.html">Ellipse Detector</a><br>
+  <a href="http://www1.cs.columbia.edu/CAVE/publications/pdfs/Krishnan_TOG06.pdf">Local and Global Component Separation</a><br>
+  <br>
+  
+  <hr>
+  <i><b> equipment</b> </i><br>
+  <a href="https://www.universal-robots.com/products/ur5-robot/">UR5 Robot</a><br>
+  <a href="http://www.stratasys.com/3d-printers/objet-eden-260vs">Objet Eden 260VS Printer</a><br>
+  <a href="https://www.amazon.com/Mitsubishi-PK20-PocketProjector/dp/B000I28EGC">Mitsubishi PK20 Projector</a><br>
+  <a href="https://www.ptgrey.com/grasshopper3-32-mp-mono-usb3-vision-sony-pregius-imx252">PointGrey GrassHopper3 Monochrome Camera</a><br>
+  Fujinon lenses: <a href="http://www.fujifilmusa.com/products/optical_devices/machine-vision/2-3-5/hf25sa-1/">25mm</a> / 
+  <a href="http://www.fujifilmusa.com/products/optical_devices/machine-vision/2-3-5/hf50sa-1/">50mm</a> <br>
+  <br>
+
+  </div>
+  -->
+
+    <hr>
+  <br>
+
+  <i><b>acknowledgements</b></i><br>
+  <p>
+  We thank the anonymous reviewers for the constructive
+feedback. This work was supported in part by NSF 1741472, 1813709, and
+1909912. The article solely reflects the opinions and conclusions of its authors
+but not the funding agents.
+  </p>
+
+  <hr>
+  <br>
+<!--
+  <i><b> bibtex citation </b></i><br>
+  <font size=-1>
+  <pre>
+@inproceedings{Li:2017:aircode,
+  title={AirCode: Unobtrusive Physical Tags for Digital Fabrication},
+  author={Li, Dingzeyu and Nair, Avinash S. and Nayar, Shree K. and Zheng, Changxi},
+  booktitle = {Proceedings of ACM Symposium on User Interface Software \& Technology},
+  year={2017},
+}
+  </pre>
+  </font>
+  <hr>
+  -->
+  
+  <div id="footer">
+    <script type="text/javascript" src="./files/copyright.js"></script>
+  </div>
+</div>
+
+</body>
+</html>
+
